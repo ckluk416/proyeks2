@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.7.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="ab644c57-b74b-42ce-b586-565aa132f36b" data-root-id="p1062" style="display: contents;"></div>
+  
+    <script type="application/json" id="c49421e8-1c0c-4fe9-8dd9-75ba7b791cb3">
+      {"5c6b6774-6647-4a3d-8839-718ad9cff393":{"version":"3.7.3","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1062","attributes":{"x_range":{"type":"object","name":"FactorRange","id":"p1072","attributes":{"factors":["AI","Cybersecurity","Data Science","Web Dev"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1064"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1073"},"y_scale":{"type":"object","name":"LinearScale","id":"p1074"},"title":{"type":"object","name":"Title","id":"p1065","attributes":{"text":"Rata-rata IPK per Kategori dan Gender"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1094","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1059","attributes":{"selected":{"type":"object","name":"Selection","id":"p1060","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1061"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAA="},"shape":[8],"dtype":"int32","order":"little"}],["Kategori",{"type":"ndarray","array":["AI","AI","Cybersecurity","Cybersecurity","Data Science","Data Science","Web Dev","Web Dev"],"shape":[8],"dtype":"object","order":"little"}],["Gender",{"type":"ndarray","array":["Laki-laki","Perempuan","Laki-laki","Perempuan","Laki-laki","Perempuan","Laki-laki","Perempuan"],"shape":[8],"dtype":"object","order":"little"}],["IPK",{"type":"ndarray","array":{"type":"bytes","data":"4OuOyuN9C0AV0VpEJaQLQECyWTTrAAxA5GtR5P9sC0COu2afAnELQDdwsgomfAtAKfnzUbVYCkAkF04GD14LQA=="},"shape":[8],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1095","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1096"}}},"glyph":{"type":"object","name":"VBar","id":"p1091","attributes":{"x":{"type":"field","field":"Kategori"},"width":{"type":"value","value":0.4},"top":{"type":"field","field":"IPK"},"line_color":{"type":"value","value":"#fee08b"},"fill_color":{"type":"value","value":"#fee08b"},"hatch_color":{"type":"value","value":"#fee08b"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1092","attributes":{"x":{"type":"field","field":"Kategori"},"width":{"type":"value","value":0.4},"top":{"type":"field","field":"IPK"},"line_color":{"type":"value","value":"#fee08b"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#fee08b"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#fee08b"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1093","attributes":{"x":{"type":"field","field":"Kategori"},"width":{"type":"value","value":0.4},"top":{"type":"field","field":"IPK"},"line_color":{"type":"value","value":"#fee08b"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#fee08b"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#fee08b"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1071","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1085"},{"type":"object","name":"ResetTool","id":"p1086"},{"type":"object","name":"SaveTool","id":"p1087"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1080","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1081","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1082"},"axis_label":"IPK","major_label_policy":{"type":"object","name":"AllLabels","id":"p1083"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1075","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1076"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1077"},"axis_label":"Kategori","major_label_policy":{"type":"object","name":"AllLabels","id":"p1078"}}}],"center":[{"type":"object","name":"Grid","id":"p1079","attributes":{"axis":{"id":"p1075"}}},{"type":"object","name":"Grid","id":"p1084","attributes":{"dimension":1,"axis":{"id":"p1080"}}},{"type":"object","name":"Legend","id":"p1097","attributes":{"click_policy":"hide","items":[{"type":"object","name":"LegendItem","id":"p1098","attributes":{"label":{"type":"field","field":"Gender"},"renderers":[{"id":"p1094"}]}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('c49421e8-1c0c-4fe9-8dd9-75ba7b791cb3').textContent;
+              const render_items = [{"docid":"5c6b6774-6647-4a3d-8839-718ad9cff393","roots":{"p1062":"ab644c57-b74b-42ce-b586-565aa132f36b"},"root_ids":["p1062"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
